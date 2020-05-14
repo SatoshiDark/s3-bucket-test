@@ -1,0 +1,18 @@
+{
+  "name": "s3-bucket-test",
+  "version": "1.0.0",
+  "description": "Test of retrieving S3 files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Satoshi Bruno",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.676.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
