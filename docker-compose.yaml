@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    # environment:
+    #   ACCESS_KEY: AKIA...
+    #   SECRET_KEY: OZ777...
+    #   REGION: us-west-1
